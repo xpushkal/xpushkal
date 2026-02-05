@@ -1,75 +1,71 @@
-<!-- =========================
-   Pushkal Pratap Singh — GitHub Profile README
-   Repo name MUST be: xpushkal
-   File: README.md
-========================= -->
+<!-- Repo MUST be named: xpushkal
+     File: README.md -->
 
 <div align="center">
 
 <h1>Pushkal Pratap Singh</h1>
-<p><b>AI/ML Developer • Backend/Systems • RAG + Agentic Pipelines</b></p>
 
-<a href="https://pushkal.me"><b>Portfolio</b></a> •
-<a href="https://github.com/xpushkal"><b>GitHub</b></a> •
-<a href="https://linkedin.com/in/pushkalx30/"><b>LinkedIn</b></a> •
-<a href="mailto:pushkalx30@gmail.com"><b>Email</b></a>
+<p>
+  <b>Backend • AI/ML • Agentic AI • RAG • Microservices</b><br/>
+  Lucknow, India • <a href="https://pushkal.me">pushkal.me</a>
+</p>
 
-<br/><br/>
+<p>
+  <a href="https://pushkal.me"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-pushkal.me-black"></a>
+  <a href="https://github.com/xpushkal"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-xpushkal-181717?logo=github"></a>
+  <a href="https://linkedin.com/in/pushkalx30/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-pushkalx30-0A66C2?logo=linkedin&logoColor=white"></a>
+  <a href="mailto:pushkalx30@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-pushkalx30%40gmail.com-EA4335?logo=gmail&logoColor=white"></a>
+</p>
 
-<img src="https://komarev.com/ghpvc/?username=xpushkal&label=Profile%20views&color=0e75b6&style=flat" alt="profile views"/>
+<img src="https://komarev.com/ghpvc/?username=xpushkal&label=Profile%20views&style=flat" alt="profile views"/>
 
 </div>
 
 ---
 
-## 🛰️ Contribution Graph… but it’s a Space Shooter (auto-runs)
-
-> Your GitHub contribution grid becomes enemies. A spaceship fights through it automatically.  
-> **No snake. No pacman.**
+## 🚀 SpaceShip on my Contribution Grid (auto-updating)
 
 <div align="center">
-
-<!-- Once you set up the workflow (below), this file will exist in your repo -->
-<img src="game.gif" alt="Space Shooter on my GitHub contributions" width="720"/>
-
+  <!-- This will start showing once you add the workflow below and it generates the file -->
+  <img src="game.gif" alt="Space Shooter over contributions" width="800" />
 </div>
 
 <details>
-<summary><b>⚙️ Setup (copy-paste workflow) — keep everything in one place</b></summary>
+<summary><b>✅ One-time setup: add the workflow that generates game.gif</b></summary>
 
 Create this file in your profile repo:
 
-**`.github/workflows/update-game.yml`**
+**.github/workflows/space-game.yml**
 ```yml
-name: Update Space Shooter Game
+name: Update Space Contribution Game
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # daily at 00:00 UTC
+    - cron: "0 0 * * *"     # daily
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  update-game:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Generate contribution game GIF
+      - name: Generate space shooter GIF
         uses: czl9707/gh-space-shooter@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           output-path: "game.gif"
-          strategy: "random"   # options: column | row | random
+          strategy: "random"
           fps: "40"
 
-      - name: Commit updated GIF
+      - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add game.gif
-          git commit -m "chore: update space shooter game" || exit 0
+          git commit -m "chore: update space game" || exit 0
           git push
