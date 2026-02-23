@@ -4,7 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Pushkal%20Pratap%20Singh&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=AI%2FML%20Engineer%20%7C%20Backend%20Developer%20%7C%20LLM%20Enthusiast&descAlignY=55&descSize=18" width="100%"/>
 
 <!-- Typing Animation -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=Building+Intelligent+Systems+%F0%9F%A4%96;FastAPI+%7C+ML+%7C+Agentic+AI+%7C+RAG;SRM+CSE+%7C+Class+of+2027;SIH+2025+Finalist+%F0%9F%8F%86)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=Building+Intelligent+Systems+%F0%9F%A4%96;FastAPI+%7C+ML+%7C+Agentic+AI+%7C+RAG;SIH+2025+Finalist+%F0%9F%8F%86)](https://git.io/typing-svg)
 
 <br/>
 
