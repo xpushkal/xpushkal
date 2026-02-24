@@ -119,18 +119,20 @@ me.say_hi()
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=xpushkal&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&cache_seconds=21600&rank_icon=github"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=xpushkal&theme=tokyonight" height="170"/>
 &nbsp;
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xpushkal&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&cache_seconds=21600"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=xpushkal&theme=tokyonight" height="170"/>
+&nbsp;
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=xpushkal&theme=tokyonight" height="170"/>
 
 </div>
+
 
 <div align="center">
   <img src="https://streak-stats.demolab.com/?user=xpushkal&theme=tokyonight&hide_border=true&background=0D1117&ring=6366F1&fire=6366F1&currStreakLabel=6366F1" />
 </div>
 
 
-<br/>
 
 ---
 
