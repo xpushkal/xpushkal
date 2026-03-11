@@ -34,14 +34,8 @@
 class PushkalPratapSingh:
     def __init__(self):
         self.name        = "Pushkal Pratap Singh"
-        self.location    = "Lucknow, Uttar Pradesh 🇮🇳"
-        self.university  = "SRM Institute of Science & Technology, Chennai"
-        self.degree      = "B.Tech Computer Science (2023–2027)"
-        self.cgpa        = 8.9
-
         self.roles       = ["Backend Developer", "AI/ML Engineer", "LLM Developer"]
         self.interests   = ["Agentic AI", "RAG Pipelines", "NLP", "System Design"]
-
         self.currently   = "Backend Intern @ Tranquiex | AIML @ Outlier AI"
         self.achievement = "🏆 SIH 2025 Finalist"
 
