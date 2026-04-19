@@ -37,7 +37,7 @@ class PushkalPratapSingh:
         self.roles       = ["Backend Developer", "AI/ML Engineer", "LLM Developer"]
         self.interests   = ["Agentic AI", "RAG Pipelines", "NLP", "System Design"]
         self.currently   = "Backend Intern @ Tranquiex | AIML @ Outlier AI"
-        self.achievement = "🏆 SIH 2025 Finalist"
+        self.achievement = "🏆 SIH 2025 Finalist, AI FOR BHARAT powered by AWS, 2nd Runner Up"
 
     def say_hi(self):
         print("Thanks for dropping by! Let's build something amazing 🚀")
