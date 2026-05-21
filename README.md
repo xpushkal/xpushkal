@@ -180,20 +180,6 @@ me.say_hi()
 
 </div>
 
----
-
-## 🌐 Let's Connect
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/-Pushkal%20Pratap%20Singh-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/pushkalx30)
-[![Portfolio](https://img.shields.io/badge/-pushkal.me-FF5722?style=flat-square&logo=google-chrome&logoColor=white)](https://pushkal.me)
-[![Gmail](https://img.shields.io/badge/-pushkalx30@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:pushkalx30@gmail.com)
-[![GitHub](https://img.shields.io/badge/-xpushkal-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/xpushkal)
-
-</div>
-
----
 
 <!-- Footer Wave -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
