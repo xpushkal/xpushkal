@@ -174,9 +174,8 @@ me.say_hi()
 
 | 🏆 Achievement | 📅 Year |
 |:---:|:---:|
+| 🥇 **AI For Bharat 2nd RunnerUP** (AWS Hackathon) | 2026 |
 | 🥇 **SIH 2025 Finalist** (Smart India Hackathon) | 2025 |
-| 🎤 **DEVFEST 2025** — GDG Chennai @ IIT Madras Research Park | 2025 |
-| 🎓 **NSRCELL SummitUp 2024** — IIM Bangalore | 2024 |
 
 </div>
 
